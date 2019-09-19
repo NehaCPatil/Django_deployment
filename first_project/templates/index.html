@@ -1,0 +1,17 @@
+<html>
+
+
+
+<body>
+    <h3>Salary Prediction </h3>
+
+<div>
+  <form action="/result" method="POST">
+      {% csrf_token %}
+    <label for="YearsExperience">YearsExperience</label>
+    <input type="text" id="YearsExperience" name="YearsExperience">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
